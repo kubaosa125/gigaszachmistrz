@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)file:///C:/Users/jakub_zbadu8h/Desktop/szchy/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><a href="https://www.chess.com/">jak chcesz zagrac w szachy to zapraszam tutaj</a><table class="szachy">
+  <tbody>
+ 
+    <tr>
+      <td>♜</td>
+      <td>♞</td>
+      <td>♝</td>
+      <td>♛</td>
+      <td>♚</td>
+      <td>♝</td>
+      <td>♞</td>
+      <td>♜</td>
+    </tr>
+    <tr>
+      <td>♟</td>
+      <td>♟</td>
+      <td>♟</td>
+      <td>♟</td>
+      <td>♟</td>
+      <td>♟</td>
+      <td>♟</td>
+      <td>♟</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>♙</td>
+      <td>♙</td>
+      <td>♙</td>
+      <td>♙</td>
+      <td>♙</td>
+      <td>♙</td>
+      <td>♙</td>
+      <td>♙</td>
+    </tr>
+    <tr>
+      <td>♖</td>
+      <td>♘</td>
+      <td>♗</td>
+      <td>♕</td>
+      <td>♔</td>
+      <td>♗</td>
+      <td>♘</td>
+      <td>♖</td>
+    </tr>
+	
+  </tbody>
+</table>
+
+	<title>SZACHY Z BOTEM OSA</title>
+	<link rel="stylesheet" href="file:///C:/Users/jakub_zbadu8h/Desktop/szchy/style.css">
+	<style>.szachy {
+	border:solid 1px #777;
+}
+.szachy td {
+	width:36px;
+	height:36px;
+	text-align: center;
+	vertical-align: middle;
+	font-size:20px;
+}
+.szachy tr:nth-child(odd) td:nth-child(even) {
+	background: #ccc;
+}
+.szachy tr:nth-child(even) td:nth-child(odd) {
+	background: #ccc;
+}
+</style>
+<style>
+		body {
+			background-color:#D2B48C;
+		}
+	</style>
+	
+	 <style>
+    p{color: red;}
+  </style>
+  <style>
+  #gray-text {
+  color: #70201F;
+}
+  </style>
+	
+	
+
+
+<script>// Inicjalizacja planszy gry
+var canvas = document.createElement('canvas');
+var ctx = canvas.getContext('2d');
+canvas.width = 400;
+canvas.height = 400;
+document.getElementById('board-container').appendChild(canvas);
+
+var game = new Chess(rules);
+var ai = new Bot(game);
+
+// Funkcja rysująca planszę gry
+function drawBoard() {
+    // ...
+}
+
+// Event listener dla planszy gry
+canvas.addEventListener('click', function(event) {
+    // ...
+});
+
+// Główna pętla gry
+function mainLoop() {
+    // ...
+}
+
+// Uruchomienie gry
+drawBoard();
+mainLoop();
+</script>
+
+
+<font color="#734222"><h1>Powodzenia przegrywie!(bedzie mozliwosc grania ale jeszcze nie ma D:	
+	<div id="board-container"></div>
+	<script src="./SZACHY Z BOTEM OSA_files/szachownica.js.pobrane"></script>
+	<script src="file:///C:/Users/jakub_zbadu8h/Desktop/szchy/bot.js"></script>
+	<script src="file:///C:/Users/jakub_zbadu8h/Desktop/szchy/gra.js"></script>
+	
+	</h1><h2><p id="red-text" style="font-size: 20px;"> Witaj, nie spodziewaj sie za wiele gdyż królewska gra na mojej stronie internetowej jest jeszcze w stanie roboczym, 
+	lecz nie martw sie! Już za niedługo postaram się by wszystko działało. Wszystkiego dobrego!</p></h2>
+	<h3><p id="gray-text" style="font-size: 40px;">Mam jednakże dla ciebie coś ciekawego, mianowicie historie szachów!</p></h3>
+	<h4><p id="gray-text" style="font-size: 30px;">Szachy to gra strategiczna dla dwóch graczy, w której celem jest zbicie króla przeciwnika. 
+	Gra toczy się na szachownicy o wymiarach 8x8 pól, na której stoją różne figury, takie jak piony, wieże, skoczki, gońce, hetmany i królowie. 
+	Każda figura ma swoje specjalne ruchy i możliwości, które muszą być wykorzystane do pokonania przeciwnika.</p></h4>
+	
+	<img src="./SZACHY Z BOTEM OSA_files/szachownica.jpg" style="width: 20%;">
+	
+<h5><p id="gray-text" style="font-size: 27px;">Podczas gry, gracze wykonują na przemian ruchy, starając się zdobyć przewagę nad przeciwnikiem. Gracz może zmusić przeciwnika do ustawienia króla na polu, 
+na którym będzie zagrożony biciem, co nazywa się szachem. Gracz musi wtedy podjąć odpowiednie kroki, aby chronić swego króla lub zablokować ruchy przeciwnika, 
+który wywołał szacha. Jeśli gracz nie może zrobić żadnego legalnego ruchu, który ochroniłby króla przed zbiciem, wtedy mówi się, że jest szach-mat, co oznacza, 
+że przegrał grę.</p></h5>
+
+<img src="./SZACHY Z BOTEM OSA_files/mat.jpg" style="width: 20%;">
+
+<h6><p id="gray-text" style="font-size: 25px;">Gra w szachy wymaga umiejętności przewidywania ruchów przeciwnika, planowania długoterminowych strategii, a także szybkiego i celowego podejmowania decyzji. 
+To gra logiczna, która jest popularna na całym świecie i jest uważana za jedną z najbardziej wymagających i intelektualnie rozwijających gier planszowych.</p></h6>
+
+<h7><p id="gray-text" style="font-size: 100px;">GIGACHAD
+<img src="./SZACHY Z BOTEM OSA_files/kuba_giga_chad.jpg" style="width: 50%;">
+<h8>(tworca strony)</h8>
+<a href="https://www.facebook.com/jakub.osa.7">Ja</a>
+
+
+</p></h7></font></body></html>
